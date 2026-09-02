@@ -3,36 +3,12 @@ import type { Project } from "@/lib/types";
 // Placeholder featured projects — edit freely.
 export const projects: Project[] = [
   {
-    title: "AI Interview Coach",
-    type: "AI Product · Adobe",
-    description:
-      "An AI-powered tool that runs mock technical interviews, evaluates answers, and gives structured feedback.",
-    tags: ["AI", "React", "TypeScript", "Node.js", "OpenAI"],
-    caseStudySlug: "ai-interview-coach",
-  },
-  {
-    title: "E-Commerce Platform",
-    type: "Frontend Platform · Adobe",
-    description:
-      "A modern, SEO-friendly storefront with cart, checkout, and an admin dashboard built for conversion and maintainability.",
-    tags: ["Next.js", "TypeScript", "React", "Tailwind", "Node.js"],
-    caseStudySlug: "ecommerce-platform",
-  },
-  {
-    title: "S2 Migration Skills",
+    title: "React Spectrum S2 Migration",
     type: "AI Developer Tooling · Adobe",
     description:
-      "Built reusable AI skills to automate S2 tab migrations, encoding migration patterns and engineering knowledge into repeatable workflows that reduced manual upgrade effort.",
+      "Built reusable AI skills to automate S2 tab migrations, code review, encoding migration patterns and engineering knowledge into repeatable workflows that reduced manual upgrade effort.",
     tags: ["AI Skills", "Automation", "React", "TypeScript", "Developer Tools"],
     caseStudySlug: "s2-migration-skills",
-  },
-  {
-    title: "S2 AI Code Review",
-    type: "AI Developer Tooling · Adobe",
-    description:
-      "AI-assisted PR and branch review capabilities designed to analyze code changes, accelerate reviews, and surface potential concerns before merge.",
-    tags: ["AI", "Code Review", "Git", "Developer Tools"],
-    caseStudySlug: "s2-ai-code-review",
   },
   {
     title: "EU DSA Compliance",
@@ -71,20 +47,20 @@ export const projects: Project[] = [
     caseStudySlug: "reusable-card-component",
   },
   {
-    title: "TraceLens",
-    type: "Full Stack + AI · In Development",
-    description:
-      "AI-assisted incident investigation platform that correlates logs, traces, deployments, and service signals from distributed systems to reconstruct failures and surface evidence-backed root-cause hypotheses.",
-    tags: [
-      "Next.js",
-      "TypeScript",
-      "Python",
-      "FastAPI",
-      "OpenTelemetry",
-      "PostgreSQL",
-      "Redis",
-      "AI Agents",
-    ],
-    caseStudySlug: "tracelens",
-  },
+  title: "TraceLens",
+  type: "Full Stack + AI · In Development",
+  description:
+    "AI-assisted incident investigation platform that correlates logs, traces, deployments, and service signals from distributed systems to reconstruct failures and surface evidence-backed root-cause hypotheses.",
+  tags: [
+    "Next.js",
+    "TypeScript",
+    "Python",
+    "FastAPI",
+    "OpenTelemetry",
+    "PostgreSQL",
+    "Redis",
+    "AI Agents",
+  ],
+  caseStudySlug: "tracelens",
+}
 ];
