@@ -3,42 +3,6 @@ import type { CaseStudy } from "@/lib/types";
 // Placeholder case studies — one per project with a caseStudySlug.
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "ecommerce-platform",
-    title: "E-Commerce Platform",
-    summary:
-      "A modern, SEO-friendly storefront with cart, checkout, and an admin dashboard.",
-    role: "Frontend lead",
-    timeline: "2023 · 8 weeks",
-    stack: ["Next.js", "Tailwind", "Node.js", "PostgreSQL"],
-    problem:
-      "The brief was a fast storefront that ranks well and is easy for a small team to operate, without a heavy commerce platform.",
-    approach:
-      "Used server rendering for product pages, an optimistic cart, and a lightweight admin for catalog and orders. Prioritized Core Web Vitals from day one.",
-    architecture:
-      "Next.js App Router with server components for catalog, a Node API for orders, and PostgreSQL for products and inventory. Images optimized via next/image.",
-    outcome:
-      "A storefront with strong Lighthouse scores and a maintainable admin. Future work: payments hardening and inventory webhooks.",
-    media: [],
-  },
-  {
-    slug: "analytics-dashboard",
-    title: "Analytics Dashboard",
-    summary:
-      "A real-time data visualization dashboard with interactive, configurable charts.",
-    role: "Frontend engineer",
-    timeline: "2023 · 5 weeks",
-    stack: ["React", "TypeScript", "D3", "FastAPI"],
-    problem:
-      "Stakeholders needed to explore live metrics without waiting on bespoke reports for every question.",
-    approach:
-      "Built composable chart components over D3, with client-side filtering and saved views, fed by a FastAPI metrics service.",
-    architecture:
-      "React + TypeScript frontend with a thin data layer polling a FastAPI backend. Charts are pure components driven by a typed data contract.",
-    outcome:
-      "A dashboard that lets non-technical users slice metrics themselves. Next: alerting and shareable snapshots.",
-    media: [],
-  },
-  {
     slug: "s2-migration-skills",
     title: "S2 Migration Skills",
     summary:

@@ -6,7 +6,7 @@ export const profile: Profile = {
   name: "Aradhana Dubey",
   firstName: "Aradhana",
   lastName: "Dubey",
-  title: "Senior Frontend Engineer",
+  title: "Senior Software Engineer",
   company: "Adobe Inc",
   greeting: "Hi, I'm",
   tagline:
