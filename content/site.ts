@@ -1,6 +1,6 @@
 // Site-wide constants used for SEO. Set `url` to your real deployed URL before shipping.
 export const site = {
-  url: "https://your-domain.com",
+  url: "https://portfolio-eight-fawn-42.vercel.app/",
   name: "Aradhana Dubey",
   title: "Aradhana Dubey — Senior Software Engineer",
   description:

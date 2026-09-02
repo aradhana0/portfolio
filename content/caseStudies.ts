@@ -3,24 +3,6 @@ import type { CaseStudy } from "@/lib/types";
 // Placeholder case studies — one per project with a caseStudySlug.
 export const caseStudies: CaseStudy[] = [
   {
-    slug: "ai-interview-coach",
-    title: "AI Interview Coach",
-    summary:
-      "An AI-powered tool that runs mock technical interviews, evaluates answers, and gives structured feedback.",
-    role: "Full-stack engineer",
-    timeline: "2024 · 6 weeks",
-    stack: ["React", "Node.js", "OpenAI", "MongoDB"],
-    problem:
-      "Candidates rarely get realistic, low-pressure interview practice with actionable feedback. Existing tools are either static question banks or expensive human mocks.",
-    approach:
-      "Designed a conversational flow where the model asks role-specific questions, follows up on answers, and scores responses against a rubric. Kept latency low with streaming responses.",
-    architecture:
-      "React frontend talks to a Node API that orchestrates prompts and stores sessions in MongoDB. The scoring rubric lives server-side so it can be tuned without shipping the client.",
-    outcome:
-      "A working prototype that runs end-to-end interview sessions with feedback summaries. Next steps would be analytics on weak areas and a question library per role.",
-    media: [],
-  },
-  {
     slug: "ecommerce-platform",
     title: "E-Commerce Platform",
     summary:
