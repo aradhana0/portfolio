@@ -26,6 +26,21 @@ Feature-complete and deploy-ready:
 2. Fill real content in `content/*.ts`; add hero photo + sketches to `public/`; add `resume.pdf`.
 3. Set your Formspree form ID in `components/sections/ContactForm.tsx`.
 
+### Continuous deployment to Vercel
+
+The GitHub Actions workflow runs CI on pull requests and `main`. A push to `main` deploys to Vercel
+only after lint, typecheck, tests, and the production build pass.
+
+1. Import this repository into Vercel and create the project.
+2. Create a Vercel access token in **Account Settings > Tokens**.
+3. Find the project and team IDs with `npx vercel@latest project ls` and `npx vercel@latest teams ls`.
+4. Add these repository secrets in **GitHub > Settings > Secrets and variables > Actions**:
+  `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID`.
+5. Push or merge to `main` to trigger the production deployment.
+
+Vercel's native Git integration is an alternative that provides preview deployments without the
+workflow; disable one of the two deployment paths if you enable both.
+
 ## Prerequisites
 
 - Node.js >= 18 (20 or 22 recommended)
