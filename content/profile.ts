@@ -15,7 +15,7 @@ export const profile: Profile = {
     "Full-Stack Engineer with 7+ years of software engineering experience, specializing in React, TypeScript, Python, and FastAPI, with a growing focus on building AI-powered products and intelligent applications.",
   resumeUrl: "/assets/Aradhana_Dubey_Resume.pdf",
   socials: [
-    { label: "GitHub", href: "https://github.com/your-handle", icon: "github" },
+    { label: "GitHub", href: "https://github.com/aradhana0/portfolio", icon: "github" },
     {
       label: "LinkedIn",
       href: "https://www.linkedin.com/in/aradhana-dubey-7a1a42b0",
