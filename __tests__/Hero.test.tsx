@@ -10,7 +10,7 @@ describe("Hero", () => {
 
   it("renders the title and tagline", () => {
     render(<Hero />);
-    expect(screen.getByText(/Senior Frontend Engineer/)).toBeInTheDocument();
+    expect(screen.getByText(/Senior Software Engineer/)).toBeInTheDocument();
   });
 
   it("renders the primary CTAs", () => {
